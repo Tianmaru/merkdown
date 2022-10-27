@@ -1,0 +1,34 @@
+\documentclass[20pt, aspectratio={aspect}]{{beamer}}
+\usecolortheme{{seagull}}
+
+\usepackage[utf8]{{inputenc}}
+\usepackage[T1]{{fontenc}}
+\usepackage[ngerman]{{babel}}
+\usepackage{{xcolor}}
+
+\definecolor{{mdyellow}}{{HTML}}{{ffffa6}}
+\definecolor{{mdgreen}}{{HTML}}{{afd095}}
+\definecolor{{mdred}}{{HTML}}{{ffa6a6}}
+\definecolor{{mdblue}}{{HTML}}{{b4c7dc}}
+\definecolor{{mdviolet}}{{HTML}}{{bf819e}}
+
+\begin{{document}}
+
+\title{{
+	{title}
+}}
+
+\author{{
+	{author}
+}}
+
+\date{{\today}}
+
+\setbeamercolor{{background canvas}}{{bg={titlecolor}}}
+\begin{{frame}}
+	\titlepage
+\end{{frame}}
+
+{slides}
+
+\end{{document}}

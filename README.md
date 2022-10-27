@@ -30,7 +30,7 @@ Author: Tianmaru
 - right now, merkdown does not support:
 	- ordered lists
 	- images and links
-- text resizing / continous slides
+	- text resizing / continous slides
 
 ## Alternatives
 

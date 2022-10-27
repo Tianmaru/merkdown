@@ -24,3 +24,19 @@ Author: Tianmaru
 	- intendation works too
 - template.tex is used for tex export
 - odpslides and python-pptx for other exports
+
+## Limitations and missing features
+
+- right now, merkdown does not support:
+	- ordered lists
+	- images and links
+- text resizing / continous slides
+
+## Alternatives
+
+- after finishing this prototype, I searched for alternatives
+- you might want to consider marp
+	- comes with a handy vscode extension
+	- more features
+- (I am not associated in any way with marp)
+- however, marp does not offer markdown to tex export

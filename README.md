@@ -12,8 +12,8 @@ Author: Tianmaru
 
 - git clone git@github.com:Tianmaru/merkdown.git
 - cd merkdown
-- pip install odpslides pptx
-- python merkdown.py README.md
+- pip install odpslides python-pptx
+- python merkdown.py README.md --aspect 16:9
 
 ## How does it work?
 
@@ -23,4 +23,4 @@ Author: Tianmaru
 - bullet points are written onto the slide
 	- intendation works too
 - template.tex is used for tex export
-- odpslides and pptx for PowerPoint and LibreOffice
+- odpslides and python-pptx for other exports

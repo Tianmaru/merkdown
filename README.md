@@ -31,6 +31,7 @@ Author: Tianmaru
 	- ordered lists
 	- images and links
 	- text resizing / continous slides
+	- solic color backgrounds for pptx and odp
 
 ## Alternatives
 
